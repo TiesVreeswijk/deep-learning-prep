@@ -9,7 +9,7 @@ Each week has its own folder with a notebook and a short README that states the 
 | Week | Dates | Topic | Deliverable | Result |
 |---|---|---|---|---|
 | 0 | 18 to 22 Nov | [Setup](00_setup/) | Working environment | ✅ Environment ready |
-| 1 | 23 to 29 Nov | [Python and basic ML](01_python_basic_ml/) | Clean-and-model notebook | |
+| 1 | 23 to 29 Nov | [Python and basic ML](01_python_basic_ml/) | Clean-and-model notebook | Titanic: Random Forest 84.7%, Logistic Regression 84.4% (baseline 61.8%) |
 | 2 | 30 Nov to 6 Dec | [Math essentials](02_math_gradient_descent/) | Gradient descent from scratch | |
 | 3 | 7 to 13 Dec | [ANN](03_ann_mnist/) | MLP on MNIST | |
 | 4 | 14 to 20 Dec | [CNN](04_cnn_cifar10/) | CNN on CIFAR-10 plus transfer learning | |
