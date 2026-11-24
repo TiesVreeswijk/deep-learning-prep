@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and model weights (downloaded or produced locally)
+data/*
+!data/README.md
+models/*
+!models/README.md
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Experiment outputs
+runs/
+wandb/
+lightning_logs/
+results/
+checkpoint-*/
+
+# PyCharm (keep shared project files, ignore personal ones)
+.idea/workspace.xml
+.idea/usage.statistics.xml
+.idea/shelf/
+.idea/dataSources*
+.idea/misc.xml
+
+# OS
+.DS_Store
+Thumbs.db
