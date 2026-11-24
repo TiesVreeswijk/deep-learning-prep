@@ -1,11 +1,11 @@
-# Deep Learning prep environment (Python 3.12)
+﻿# Deep Learning prep environment (Python 3.12)
 # PyTorch is installed from the CUDA 13.0 index for NVIDIA GPUs (RTX 50-series needs CUDA 12.8+).
-# CPU only? Remove the --extra-index-url line.
+# CPU only? Remove the --extra-index-url line and the "+cu130" suffixes.
 --extra-index-url https://download.pytorch.org/whl/cu130
 
 # Deep learning
-torch==2.14.1
-torchvision==0.29.1
+torch==2.14.1+cu130
+torchvision==0.29.1+cu130
 
 # Data and classic ML
 numpy==2.5.5
